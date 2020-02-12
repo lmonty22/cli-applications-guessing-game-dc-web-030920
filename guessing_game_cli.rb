@@ -25,7 +25,6 @@ def statements(num, input)
 end 
 
 def run_guessing_game
-  input = user_input
-  statements(random_number, input)
+  statements(random_number, user_input)
   end
 end 
