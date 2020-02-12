@@ -19,7 +19,7 @@ def statements(num, input)
           input.to_i
           if input == num
               puts "You guessed the correct number!"
-          else 
+          elsif
               puts "Sorry! The computer guessed #{num}."
           end
       end
