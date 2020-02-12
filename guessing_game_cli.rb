@@ -13,7 +13,7 @@ def user_input
 end 
 
 def statements(num, input)
-      if input.is_a? String && input == 'exit'
+      if input == "exit"
          puts "Goodbye!"
       else
           input.to_i
