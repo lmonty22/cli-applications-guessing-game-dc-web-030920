@@ -23,7 +23,7 @@ end
 
 def run_guessing_game
   input = user_input
-   if input == "exit"
+   if input == 'exit'
          puts "Goodbye!"
       else
         statements(random_number, input)
