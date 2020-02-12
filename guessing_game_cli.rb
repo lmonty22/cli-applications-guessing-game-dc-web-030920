@@ -14,7 +14,7 @@ end
 
 def statements(num, input)
       if input == "exit"
-         puts "Goodbye!"
+         return "Goodbye!"
       else input.to_i
           if input == num
               puts "You guessed the correct number!"
