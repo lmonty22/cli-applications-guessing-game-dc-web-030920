@@ -13,7 +13,7 @@ def user_input
 end 
 
 def statements(num, input)
-      if input == "exit"
+      if input == 'exit'
          return "Goodbye!"
       else input.to_i
           if input == num
