@@ -12,24 +12,19 @@ def user_input
   gets.chomp.to_i
 end 
 
-def goodbye
-  puts "Goodbye!"
-end
-  
-
 def statements(num, input)
-      if input == num
+      if input == "exit"
+         puts "Goodbye!"
+      else input.to_i
+          if input == num
          puts "You guessed the correct number!"
-      else 
-        puts "Sorry! The computer guessed #{num}."
-      end
+          else 
+          puts "Sorry! The computer guessed #{num}."
+          end
 end 
 
 def run_guessing_game
   input = user_input
-  if input == "exit"
-    goodbye
-  else
-    statements(random_number, input)
+  statements(random_number, input)
   end
 end 
