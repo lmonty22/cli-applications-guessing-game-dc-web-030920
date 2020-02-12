@@ -26,5 +26,4 @@ end
 
 def run_guessing_game
   statements(random_number, user_input)
-  end
 end 
