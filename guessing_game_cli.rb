@@ -14,7 +14,7 @@ end
 
 def statements(num, input)
       if input == 'exit'
-         "Goodbye!"
+         puts "Goodbye!"
       else
         input.to_i
           if input == num
