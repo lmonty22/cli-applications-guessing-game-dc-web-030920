@@ -1,16 +1,13 @@
 # Code your solution here!
-def prompt_user 
-  puts "Guess a number between 1 and 6!"
-end 
 
+def user_input 
+  gets.chomp
+end 
   
 def random_number 
   rand(1..6)
 end 
  
-def user_input 
-  gets.chomp.to_i
-end 
 
 def statements(num, input)
       input.to_i
