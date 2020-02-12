@@ -15,8 +15,7 @@ end
 def statements(num, input)
       if input.is_a? String && == 'exit'
          puts "Goodbye!"
-      end
-      if input.is_a? String && != 'exit'
+      else
           input.to_i
           if input == num
               puts "You guessed the correct number!"
