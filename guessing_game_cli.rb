@@ -13,18 +13,17 @@ def user_input
 end 
 
 def statements(num, input)
-      if input == "exit"
-         puts "Goodbye!"
-      else
           input.to_i
           if input == num
               puts "You guessed the correct number!"
-          elsif
+          else
               puts "Sorry! The computer guessed #{num}."
           end
-      end
+     end
 end 
 
 def run_guessing_game
-  statements(random_number, user_input)
+  input = user_input
+  
+  statements(random_number, input)
 end 
