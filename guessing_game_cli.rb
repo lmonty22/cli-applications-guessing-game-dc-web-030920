@@ -1,5 +1,4 @@
 # Code your solution here!
-
 def user_input 
   gets.chomp
 end 
@@ -8,10 +7,9 @@ def random_number
   rand(1..6)
 end 
  
-
 def statements(num, input)
-      input.to_i
-          if input == num
+      new_value = input.to_i
+          if new_value == num
               puts "You guessed the correct number!"
           else
               puts "Sorry! The computer guessed #{num}."
